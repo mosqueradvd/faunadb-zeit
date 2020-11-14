@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Head from "next/head";
 import TableRow from "../components/TableRow";
-import "../styles/Index.css";
+import "./styles/Index.css";
 
 export default () => {
   const [data, setData] = useState([]);
