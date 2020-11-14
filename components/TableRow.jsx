@@ -1,5 +1,3 @@
-import "../pages/styles/TableRow.css";
-
 export default ({ creditCard, firstName, loading, lastName, telephone }) => {
   <div className="table table-row">
     <p className={loading ? "loading" : ""}>
