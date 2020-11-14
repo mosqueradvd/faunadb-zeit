@@ -1,10 +1,12 @@
 {
   "name": "faunadb-api",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "next build"
+    "build": "next build",
+    "start": "node pages/index.js"
   },
   "keywords": [],
   "author": "",
