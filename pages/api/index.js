@@ -23,6 +23,6 @@ module.exports = async (req, res) => {
     res.status(200).json(dbs.data);
   } catch (e) {
     // someting went wrong
-    res.status(500).json({ erro: e.message });
+    res.status(500).json({ error: e.message });
   }
 };
