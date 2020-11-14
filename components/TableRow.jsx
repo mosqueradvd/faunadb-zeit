@@ -1,4 +1,4 @@
-import "./styles/TableRow.css";
+import "../pages/styles/TableRow.css";
 
 export default ({ creditCard, firstName, loading, lastName, telephone }) => {
   <div className="table table-row">
